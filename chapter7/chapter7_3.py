@@ -14,11 +14,11 @@ window.geometry("800x600")
 
 # チェックボタンの作成
   # チェックの有無を知る
-cval = tkinter.BooleanVar()  # BooleanVarオブジェクトを用意
+cval = tkinter.BooleanVar()  # ⭐️BooleanVarオブジェクトを用意
 cval.set(False)              # cval変数にTrueまたはFalseをセット（Trueで最初からチェックあり、Falseでチェックなし）
 
 cbtn = tkinter.Checkbutton(text="チェックボタン", 
-variable=cval, command=check)  # variable=でオブジェクトを指定し、上のBooleanVar()と結びつく 
+variable=cval, command=check)  # ⭐️variable=でオブジェクトを指定し、上のBooleanVar()と結びつく 
 cbtn.place(x=20, y=20)
 
 window.mainloop()
