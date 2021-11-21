@@ -1,4 +1,4 @@
-class Lucario:
+    class Lucario:
     def __init__(self, name, attack):
         self.pokename = name
         self.pokeattack = attack
